@@ -12,12 +12,16 @@
 <body>
    <h1>Home Page!</h1> 
    
-   {% for x in content %}
+    {% for x in content %}
         
-            <p>{{x}}</p>
-        
+        <p>{{x}}</p>
+        {% if x == "tim" %}
+
+        {% else %}
+
+        {% endif %}
     {% endfor %}
-    
+
 </body>
 
 </html>
